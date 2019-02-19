@@ -6,4 +6,5 @@ CREATE TABLE Coordinates (
     PRIMARY KEY (id)
 );
 
-INSERT INTO `coordinates` (`id`, `name`, `longitude`, `latitude`) VALUES (NULL, 'sydney', '-15', '30');
+INSERT INTO `Coordinates` (`id`, `name`, `longitude`, `latitude`) VALUES (NULL, 'sydney', '-15', '30');
+INSERT INTO `Coordinates` (`id`, `name`, `longitude`, `latitude`) VALUES (NULL, 'London', '-45', '40');

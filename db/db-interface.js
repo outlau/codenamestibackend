@@ -4,7 +4,7 @@ class DbInterface {
 
   static async getCoordinates(id) {
     return knex
-        .table('Coordinates').select('*');
+        .table('Coordinates').select();
   }
 }
 

@@ -1,9 +1,9 @@
 const knex = require('knex')({
   client: 'mysql',
   connection: {
-    host : 'localhost',
-    user : 'outlau',
-    password : 'tupac21',
+    host : '',
+    user : 'root',
+    password : '',
     database : 'sti'
   }
 });
