@@ -4,6 +4,12 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+const result = require('dotenv').config();
+if (result.error) {
+  console.log(result.error)
+}
+console.log(result.parsed);
+
 
 var app = express();
 
