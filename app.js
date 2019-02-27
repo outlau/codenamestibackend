@@ -21,7 +21,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// app.use('/', indexRouter);
+app.use('/', () => {
+  res.sendFile('../');
+});
 // app.use('/users', usersRouter);
 
 app.use('/api', apiRouter);
